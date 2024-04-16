@@ -1,0 +1,26 @@
+{
+    "intents":[
+        {
+            "tag":"saludo",
+            "patterns":["Hola","Buenos dias","Buenas tardes"],
+            "responses":["Hola, como puedo ayudarte hoy?","En que podemos ayudarte?"]
+        },
+        {
+            "tag":"saludo2",
+            "patterns":["Que tal?","Como estas?","como estas", "como te va", "como te va?"],
+            "responses":["Bien, en que podemos ayudarte?","Todo bien, En que podemos ayudarte?"]
+        },        
+        {
+            "tag":"agradecimiento",
+            "patterns":["muchas gracias","gracias","mil gracias", "muy agradecido"],
+            "responses":["hay algo mas en lo que podamos ayudarte?","Estamos para lo que necesite"]
+        },
+        {
+            "tag":"despedida",
+            "patterns":["nada mas","chau", "adios", "hasta luego"],
+            "responses":["Un gusto en atenderte", "Que tengas buen dia"]
+        }
+
+    ]
+
+}
